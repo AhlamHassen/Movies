@@ -201,6 +201,68 @@ namespace webApi.Controllers
             return "Updated " + result.ToString() + " row";
         }
 
+        [HttpPost("InsertIntoMovie")]
+        public string InsertIntoMovie(Movie m){
+            string connectionString = @"Data Source=rpsdp.ctvssf2oqpbl.us-east-1.rds.amazonaws.com;
+            Initial Catalog=Movies;User ID=admin; Password=kereneritrea";
+
+            SqlConnection con = new SqlConnection(connectionString);
+
+            string queryString = "INSERT INTO MOVIE (MOVIENO, TITLE, RELYEAR, RUNTIME) VALUES (@no, @title , @year ,@time)";
+            SqlCommand command = new SqlCommand(queryString, con);
+            command.Parameters.AddWithValue("@no",  m.MovieNo);
+            command.Parameters.AddWithValue("@title", m.Title);
+            command.Parameters.AddWithValue("@year", m.RelYear);
+            command.Parameters.AddWithValue("@time", m.RunTime);
+
+            con.Open();
+            var result = command.ExecuteNonQuery();
+
+            return "Inserted " + result.ToString() + " row";
+        }
+
+        [HttpPost("InsertIntoActor")]
+        public string InsertIntoActor(Actor a){
+            string connectionString = @"Data Source=rpsdp.ctvssf2oqpbl.us-east-1.rds.amazonaws.com;
+            Initial Catalog=Movies;User ID=admin; Password=kereneritrea";
+
+            SqlConnection con = new SqlConnection(connectionString);
+
+            string queryString = "INSERT INTO ACTOR (ActorNo,FullName,GivenName,Surname) values(@no, @fname, @gname, @surname)";
+            SqlCommand command = new SqlCommand(queryString, con);
+            command.Parameters.AddWithValue("@no",  a.ActorNo);
+            command.Parameters.AddWithValue("@fname", a.FullName);
+            command.Parameters.AddWithValue("@gname", a.GivenName);
+            command.Parameters.AddWithValue("@surname", a.SurName);
+
+            con.Open();
+            var result = command.ExecuteNonQuery();
+
+            return "Inserted " + result.ToString() + " row";
+        }
+
+        [HttpPost("CastActor")]
+        public string CastActor(IntObject o){
+            string connectionString = @"Data Source=rpsdp.ctvssf2oqpbl.us-east-1.rds.amazonaws.com;
+            Initial Catalog=Movies;User ID=admin; Password=kereneritrea";
+
+            SqlConnection con = new SqlConnection(connectionString);
+
+            string queryString = "INSERT INTO CASTING (Castid, ActorNo,MovieNo) values (@id, @aNum, @mNum)";
+            SqlCommand command = new SqlCommand(queryString, con);
+            command.Parameters.AddWithValue("@id", (int) o.Firstvalue);
+            command.Parameters.AddWithValue("@aNum", (int) o.Secondvalue);
+            command.Parameters.AddWithValue("@mNum", (int)o.Thirdvalue);
+           
+
+            con.Open();
+            var result = command.ExecuteNonQuery();
+
+            return "Inserted " + result.ToString() + " row";
+        }
+
+
+
 
     }
 
@@ -213,6 +275,18 @@ namespace webApi.Controllers
             this.Firstvalue = "";
             this.Secondvalue = "";
             this.Thirdvalue = "";
+        }
+    }
+
+    public class IntObject{
+        public int Firstvalue { get; set;}
+        public int Secondvalue { get; set;}
+        public int Thirdvalue { get; set;}
+
+        public IntObject(){
+            this.Firstvalue = 0;
+            this.Secondvalue = 1;
+            this.Thirdvalue = 2;
         }
     }
 }
