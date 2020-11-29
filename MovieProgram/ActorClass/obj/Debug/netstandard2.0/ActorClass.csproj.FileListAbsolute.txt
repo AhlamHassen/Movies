@@ -1,0 +1,9 @@
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\ActorClass\bin\Debug\netstandard2.0\ActorClass.deps.json
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\ActorClass\bin\Debug\netstandard2.0\ActorClass.dll
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\ActorClass\bin\Debug\netstandard2.0\ActorClass.pdb
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\ActorClass\obj\Debug\netstandard2.0\ActorClass.csprojAssemblyReference.cache
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\ActorClass\obj\Debug\netstandard2.0\ActorClass.AssemblyInfoInputs.cache
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\ActorClass\obj\Debug\netstandard2.0\ActorClass.AssemblyInfo.cs
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\ActorClass\obj\Debug\netstandard2.0\ActorClass.csproj.CoreCompileInputs.cache
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\ActorClass\obj\Debug\netstandard2.0\ActorClass.dll
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\ActorClass\obj\Debug\netstandard2.0\ActorClass.pdb

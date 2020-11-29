@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bAl8WtFOmJwAUcI8YXm3NTxXzfzdlG4Kvgo2dtXJoT29sUGQ3pOXCXt7jttva57IeHG/B5+d6c6MmCtf+NF2UA==",
+  "dgSpecHash": "M1yXK3Fd7czaCaO+5MzKBjakOMT0aflSb4W1+fUB1iN8aPltNAo1uHMsMw9A4iwnc9AsSpMf8a4THf1+By8N/w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj",
+  "projectFilePath": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ahlam\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Ahlam\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
