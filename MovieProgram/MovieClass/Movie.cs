@@ -33,7 +33,7 @@ namespace MovieClass
             this.RunTime = rtime;
         }
 
-        public int NumActors(int movieNo){
+        public int numActors(int movieNo){
             string connectionString = @"Data Source=rpsdp.ctvssf2oqpbl.us-east-1.rds.amazonaws.com;
             Initial Catalog=Movies;User ID=admin; Password=kereneritrea";
 
@@ -57,7 +57,7 @@ namespace MovieClass
             return numActors;
         }
 
-        public int GetAge(int movieNo){
+        public int getAge(int movieNo){
             string connectionString = @"Data Source=rpsdp.ctvssf2oqpbl.us-east-1.rds.amazonaws.com;
             Initial Catalog=Movies;User ID=admin; Password=kereneritrea";
 

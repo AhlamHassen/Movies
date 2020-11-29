@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj": {}
+    "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj": {
+    "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj",
+        "projectUniqueName": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj",
         "projectName": "MovieClass",
-        "projectPath": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj",
+        "projectPath": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj",
         "packagesPath": "C:\\Users\\Ahlam\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\obj\\",
+        "outputPath": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ahlam\\AppData\\Roaming\\NuGet\\NuGet.Config",
