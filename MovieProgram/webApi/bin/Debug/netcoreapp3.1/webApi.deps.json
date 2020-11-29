@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "webApi/1.0.0": {
         "dependencies": {
+          "ActorClass": "1.0.0",
           "MovieClass": "1.0.0",
           "System.Data.SqlClient": "4.8.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -405,6 +406,18 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
+      "ActorClass/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "runtime": {
+          "ActorClass.dll": {}
+        },
+        "compile": {
+          "ActorClass.dll": {}
+        }
+      },
       "MovieClass/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
@@ -2186,6 +2199,11 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "ActorClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MovieClass/1.0.0": {
       "type": "project",

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using MovieClass;
 using System.Collections.Generic;
+using ActorClass;
 
 namespace webApi.Controllers
 {
@@ -163,5 +164,55 @@ namespace webApi.Controllers
             return total;
         }
 
+        [HttpPost("ChangeRuntime")]
+        public string ChangeRuntime(Movie m){
+            string connectionString = @"Data Source=rpsdp.ctvssf2oqpbl.us-east-1.rds.amazonaws.com;
+            Initial Catalog=Movies;User ID=admin; Password=kereneritrea";
+
+            SqlConnection con = new SqlConnection(connectionString);
+
+            string queryString = "UPDATE MOVIE SET RUNTIME = @Runtime WHERE TITLE = @title";
+            SqlCommand command = new SqlCommand(queryString, con);
+            command.Parameters.AddWithValue("@Runtime", (int)m.RunTime);
+            command.Parameters.AddWithValue("@title", m.Title);
+
+            con.Open();
+            var result = command.ExecuteNonQuery();
+
+            return "Updated " + result.ToString() + " row";
+        }
+
+        [HttpPost("ChangeSurname")]
+        public string ChangeSurname(Object o){
+            string connectionString = @"Data Source=rpsdp.ctvssf2oqpbl.us-east-1.rds.amazonaws.com;
+            Initial Catalog=Movies;User ID=admin; Password=kereneritrea";
+
+            SqlConnection con = new SqlConnection(connectionString);
+
+            string queryString = "UPDATE ACTOR SET FullName = @givenName + ' ' + @newSurname WHERE GivenName = @givenName AND Surname = @surname;";
+            SqlCommand command = new SqlCommand(queryString, con);
+            command.Parameters.AddWithValue("@givenName",  o.Firstvalue);
+            command.Parameters.AddWithValue("@surname", o.Secondvalue );
+            command.Parameters.AddWithValue("@newSurname", o.Thirdvalue);
+
+            con.Open();
+            var result = command.ExecuteNonQuery();
+
+            return "Updated " + result.ToString() + " row";
+        }
+
+
+    }
+
+    public class Object{
+        public string Firstvalue { get; set;}
+        public string Secondvalue { get; set;}
+        public string Thirdvalue { get; set;}
+
+        public Object(){
+            this.Firstvalue = "";
+            this.Secondvalue = "";
+            this.Thirdvalue = "";
+        }
     }
 }

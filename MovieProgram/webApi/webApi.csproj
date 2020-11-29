@@ -7,5 +7,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MovieClass\MovieClass.csproj" />
+    <ProjectReference Include="..\ActorClass\ActorClass.csproj" />
   </ItemGroup>
 </Project>

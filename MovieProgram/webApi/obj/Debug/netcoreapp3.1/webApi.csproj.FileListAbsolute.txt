@@ -28,3 +28,5 @@ C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\obj\Debug\netco
 C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\MovieClass.dll
 C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\MovieClass.pdb
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\ActorClass.dll
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\ActorClass.pdb
