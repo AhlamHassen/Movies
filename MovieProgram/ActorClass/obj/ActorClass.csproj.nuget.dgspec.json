@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj": {}
+    "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj": {
+    "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj",
+        "projectUniqueName": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj",
         "projectName": "ActorClass",
-        "projectPath": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj",
+        "projectPath": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\ActorClass.csproj",
         "packagesPath": "C:\\Users\\Ahlam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\obj\\",
+        "outputPath": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\ActorClass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ahlam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,14 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             }
           },
           "imports": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj": {}
+    "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj": {
+    "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj",
+        "projectUniqueName": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj",
         "projectName": "MovieClass",
-        "projectPath": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj",
+        "projectPath": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\MovieClass.csproj",
         "packagesPath": "C:\\Users\\Ahlam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\obj\\",
+        "outputPath": "c:\\Users\\Ahlam\\Desktop\\myRepositories\\Movies\\MovieProgram\\MovieClass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ahlam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,14 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             }
           },
           "imports": [
