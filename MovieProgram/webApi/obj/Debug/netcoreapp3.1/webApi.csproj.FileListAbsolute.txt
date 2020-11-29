@@ -25,3 +25,6 @@ C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netco
 C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\obj\Debug\netcoreapp3.1\webApi.csproj.CopyComplete
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\MovieClass.dll
+C:\Users\Ahlam\Desktop\myRepositories\Movies\MovieProgram\webApi\bin\Debug\netcoreapp3.1\MovieClass.pdb
