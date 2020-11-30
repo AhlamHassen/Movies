@@ -18,7 +18,7 @@ namespace Test
 
             Assert.Equal(4, m1.numActors(m1.MovieNo));
             Assert.Equal(5, m2.numActors(m2.MovieNo));
-            Assert.Equal(4, m3.numActors(m3.MovieNo));
+            Assert.Equal(40, m3.numActors(m3.MovieNo));
             Assert.Equal(3, m4.numActors(m4.MovieNo));
             Assert.Equal(8, m5.numActors(m5.MovieNo));
         }
