@@ -269,9 +269,6 @@ namespace webApi.Controllers
             return "Inserted " + result.ToString() + " row";
         }
 
-
-
-
     }
 
     public class Object{
