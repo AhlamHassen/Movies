@@ -24,6 +24,8 @@ namespace webApi.Controllers
             this.MovieTitles = new List<string>();
         }
 
+        //Exception Task *******************
+
         [HttpGet("Exception")]
         public string CatchException()
         { 
@@ -39,11 +41,12 @@ namespace webApi.Controllers
                     }
                 }
            }catch (ArgumentException e){
-              return "Error => Keyword not supported: 'no.database.here.com;initial catalog'.";
+              return "Error => " + e.Message;
            }
 
         }
 
+        //Read Task ******************************
 
         [HttpGet("GetAllMovies")]
         public List<Movie> GetAllMovies(){
@@ -95,7 +98,7 @@ namespace webApi.Controllers
             return this.MovieTitles;
         }
 
-         [HttpGet("TitleForActorCasted")]
+        [HttpGet("TitleForActorCasted")]
         public List<string> TitleForActorCasted(){
             string connectionString = @"Data Source=rpsdp.ctvssf2oqpbl.us-east-1.rds.amazonaws.com;
             Initial Catalog=Movies;User ID=admin; Password=kereneritrea";
@@ -164,6 +167,8 @@ namespace webApi.Controllers
             return total;
         }
 
+        //Update Task ***********************************
+
         [HttpPost("ChangeRuntime")]
         public string ChangeRuntime(Movie m){
             string connectionString = @"Data Source=rpsdp.ctvssf2oqpbl.us-east-1.rds.amazonaws.com;
@@ -200,6 +205,8 @@ namespace webApi.Controllers
 
             return "Updated " + result.ToString() + " row";
         }
+
+        //Create Task **********************
 
         [HttpPost("InsertIntoMovie")]
         public string InsertIntoMovie(Movie m){
