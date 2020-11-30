@@ -148,6 +148,7 @@ namespace webApi.Controllers
             SqlCommand command = new SqlCommand(queryString, con);
 
             con.Open();
+            // the list of movies should be declared here .... anh's feedback
 
             using (SqlDataReader reader = command.ExecuteReader())
             {
